@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Runtime data (don't commit captured data)
+data/baselines/
+data/logs/
+data/reports/
+data/sessions/
+*.pcap
+*.pcapng
+
+# Config files with local settings
+nta.config.yaml
+*.local.yaml
