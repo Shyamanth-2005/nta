@@ -53,12 +53,12 @@ def print_banner():
     """Print application banner."""
     banner = r"""
 [bold bright_cyan]
-╔═══════════════════════════════════════════════════════════════╗
+╔════════════════════════════════════════════════════════════════╗
 ║                                                               ║
-║     [bright_magenta]Network Traffic Analyzer[/bright_magenta]                          ║
-║     [dim]Real-time Monitoring & Anomaly Detection[/dim]                ║
+║     [bright_magenta]Network Traffic Analyzer[/bright_magenta] ║
+║     [dim]Real-time Monitoring & Anomaly Detection[/dim]       ║
 ║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
+╚════════════════════════════════════════════════════════════════╝
 [/bold bright_cyan]
 """
     console.print(banner)
