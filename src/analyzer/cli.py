@@ -263,7 +263,7 @@ class NetworkAnalyzer:
             ui.console.print(f"\n[bold]Alert Breakdown:[/bold]")
             for severity, count in alert_stats["by_severity"].items():
                 color = ui.UITheme.SEVERITY_COLORS.get(severity, "white")
-                ui.console.print(f"  [{color}]● {severity.value}:[/{color}] {count}")
+                ui.console.print(f"  [{color}]● {severity}:[/{color}] {count}")
     
     def _signal_handler(self, signum, frame) -> None:
         """Handle interrupt signals."""

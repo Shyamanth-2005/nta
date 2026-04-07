@@ -13,8 +13,8 @@ Get up and running with the Network Traffic Analyzer in minutes.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/network-traffic-analyzer.git
-cd network-traffic-analyzer
+git clone https://github.com/Shyamanth-2005/nta.git
+cd nta
 
 # Create virtual environment
 python -m venv .venv
@@ -27,6 +27,9 @@ source .venv/bin/activate
 
 # Install dependencies
 pip install -e ".[dev]"
+
+# or
+python -m pip install -e ".[dev]"
 ```
 
 ## Basic Usage
@@ -160,12 +163,12 @@ nta config show
 
 The analyzer detects these anomalies:
 
-| Detector | Description |
-|----------|-------------|
-| **syn_flood** | High volume of TCP SYN packets (potential DoS attack) |
-| **port_scan** | Many unique destination ports accessed (reconnaissance) |
-| **protocol_shift** | Unusual change in protocol distribution |
-| **traffic_anomaly** | Traffic rate spikes, packet size anomalies |
+| Detector            | Description                                             |
+| ------------------- | ------------------------------------------------------- |
+| **syn_flood**       | High volume of TCP SYN packets (potential DoS attack)   |
+| **port_scan**       | Many unique destination ports accessed (reconnaissance) |
+| **protocol_shift**  | Unusual change in protocol distribution                 |
+| **traffic_anomaly** | Traffic rate spikes, packet size anomalies              |
 
 ## Example Alert
 
